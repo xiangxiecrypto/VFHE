@@ -1,0 +1,9 @@
+[package]
+name = "host"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vfhe-methods = { path = "../methods" }
+risc0-zkvm = { version = "0.18.0", features = ["std"] }
+serde = "1.0"
